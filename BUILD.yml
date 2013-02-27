@@ -1,0 +1,28 @@
+## name: startsiden-puppet-site-manifest
+#
+### author: Johan Sydseter
+#
+### source: https://github.com/johansyd/startsiden-puppet-site-manifest
+#
+### license: GNU
+#
+### summary: Puppet manifests for the startsiden site manifest
+#
+### description: Manifests that defines the staging of puppet configuration
+autoinstallver: 1
+name: startsiden-puppet-site-manifest
+version: 13.09-01
+depends:
+  - startsiden-puppet-base-manifest
+  - startsiden-puppet-selenium-grid-manifest
+excludeext:
+  - .git
+  - .gitignore
+  - .md
+excludedir:
+  - t
+  - base
+  - nodes
+chroot_test: 1
+installdir: /etc/puppet/manifests/
+tests: t/
