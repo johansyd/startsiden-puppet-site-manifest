@@ -19,6 +19,7 @@ excludeext:
   - .git
   - .gitignore
   - .md
+  - .gitmodules
 excludedir:
   - t
   - base
