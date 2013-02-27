@@ -1,0 +1,6 @@
+[submodule "base"]
+	path = base
+	url = git@github.com:johansyd/startsiden-puppet-base-manifest.git
+[submodule "nodes"]
+	path = nodes
+	url = git@github.com:johansyd/startsiden-puppet-selenium-grid-manifest.git
